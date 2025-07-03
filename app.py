@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Your Deepseek API key from OpenRouter
-OPENROUTER_API_KEY = "YOUR_API_KEY"
+OPENROUTER_API_KEY = "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"
 
 @app.route("/")
 def home():
